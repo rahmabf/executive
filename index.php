@@ -26,7 +26,7 @@
 			$cnxcont->disconnect();
 
 		}
-		else if($_GET['entry']=='index' && $_GET['action']=='dash'){
+		else if($_GET['entry']=='index' && $_GET['action']=='dash'){//
 			$cnxcont->stat();
 		
 		}
