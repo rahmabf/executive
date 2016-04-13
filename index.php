@@ -19,7 +19,7 @@
 
 
 	if (isset($_GET['entry']) && isset($_GET['action'])){
-		if($_GET['entry']=='index' && $_GET['action']=='connect'){
+		if($_GET['entry']=='index' && $_GET['action']=='connect'){//
 			$cnxcont->connect();
 		}
 		else if($_GET['entry']=='index' && $_GET['action']=='disconnect'){
