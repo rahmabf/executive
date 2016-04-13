@@ -8,7 +8,7 @@
 	require_once('src/ctrl/CondController.php');
 
 
-	$cnxcont = new ConnectionController();
+	$cnxcont = new ConnectionController();//
 	$usercnt = new UserController();
 	$carcnt = new CarController();
 	$chauffcnt = new ChauffeurController();
