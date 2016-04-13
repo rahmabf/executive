@@ -1,0 +1,8 @@
+*{margin:0; padding:0; border:0px solid #1D1D1D; color:#1D1D1D; font-family:helvetica; -webkit-user-select: none;}
+html, body {position:absolute; left:0; top:0; width:100%; height:100%; overflow:hidden; z-index:-1; background-color:#E4ECFF;}
+body > section {position:absolute;bottom:0;right:0; width: calc(100% - 200px); height:calc(100% - 50px); overflow-y:auto; display:flex; flex-wrap:wrap; justify-content:space-around; align-content:center; align-items:center;}
+body>section>form>button>svg {position:relative;fill:#fff; width:30px; height:25px; display:block; float: left; background-color:green;}
+body>section>form>input{width:150px;height:25px;content:space-around; text-align:center;border-left:1px solid #E4ECFF; text-align:center;display:block; float: left;}
+body>section>form{width: calc(150px * 7);height:26px;}
+body>section>form:first-of-type{width: calc(150px * 7);height:30px;}
+body>section>form>select{width:150px;height:25px;display:block; float: left;}
